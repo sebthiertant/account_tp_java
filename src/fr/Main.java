@@ -7,26 +7,22 @@ import fr.accounts.Saving;
 public class Main {
     public static void main(String[] args) {
 
-        Account account1 = new Account();
-        Account account2 = new Account();
-        Account account3 = new Account();
-        Account account4 = new Account();
+    Account account = new Account();
+    Saving saving = new Saving();
+    PayingAccount payingAccount = new PayingAccount();
 
+    account.addFounds(100);
+    saving.addFounds(50);
+    payingAccount.addFounds(200);
 
-        account2.addFounds(10.2f);
-        System.out.println(account2.toString());
+    account.pullFounds(20);
+    saving.pullFounds(10);
+    payingAccount.pullFounds(5);
 
-        account1.pullFounds(150);
-        System.out.println(account1.toString());
+    saving.balanceWithInterest();
 
-
-        Saving savingAccount = new Saving();
-        savingAccount.balanceWithInterest();
-        System.out.println(savingAccount.getInterestRate());
-
-
-        PayingAccount payingAccount = new PayingAccount();
-        payingAccount.addFounds(100);
-        System.out.println(payingAccount.toString());
+    System.out.println(account.toString());
+    System.out.println(saving.toString());
+    System.out.println(payingAccount.toString());
     }
 }
