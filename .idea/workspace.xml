@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a0a30ef-1de5-4fe4-a414-365c3234abd5" name="Changes" comment="" />
+    <list default="true" id="6a0a30ef-1de5-4fe4-a414-365c3234abd5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/fr/accounts/PayingAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/accounts/Saving.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/accounts/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/accounts/Account.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +19,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -21,7 +28,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="21uKOaYmbJYgTnNMkWo0I7fOysW" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -29,6 +38,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -56,7 +66,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1638785500761</updated>
-      <workItem from="1638785502018" duration="2034000" />
+      <workItem from="1638785502018" duration="2888000" />
     </task>
     <servers />
   </component>

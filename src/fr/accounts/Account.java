@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Account {
 
-    private float balance;
+    public float balance;
     private int accountId;
     private static int incrementValueForId = 1;
 
@@ -27,7 +27,7 @@ public class Account {
     }
 
     public void setBalance(float balance) {
-        this.balance = balance;
+        this.balance += balance;
     }
 
     public int getAccountId() {
